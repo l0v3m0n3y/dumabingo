@@ -76,7 +76,7 @@ public class dumaBingo {
         )
     }
 
-    public func getLobbistList(category: String ="sf") async throws -> Any {
+    public func getLobbistList(category: String = "sf") async throws -> Any {
         try await fetchJSON(
             from: "\(deklaratorApi)/media/dumps/lobbist-small-\(category).json"
         )
