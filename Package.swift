@@ -1,18 +1,9 @@
-// swift-tools-version: 5.9
-import PackageDescription
-
 let package = Package(
-    name: "worldstvmobile",
-    platforms: [
-        .macOS(.v12), .iOS(.v15)
-    ],
+    name: "dumabingo",
     products: [
-        .library(name: "worldstvmobile", targets: ["worldstvmobile"]),
+        .library(name: "dumabingo", targets: ["dumabingo"])
     ],
     targets: [
-        .target(
-            name: "worldstvmobile",
-            path: "src"
-        ),
+        .target(name: "dumabingo", path: "src")
     ]
 )
