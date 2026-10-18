@@ -2,16 +2,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "worldstvmobile",
+    name: "dumabingo",
     platforms: [
         .macOS(.v12), .iOS(.v15)
     ],
     products: [
-        .library(name: "worldstvmobile", targets: ["worldstvmobile"]),
+        .library(name: "dumabingo", targets: ["dumabingo"]),
     ],
     targets: [
         .target(
-            name: "worldstvmobile",
+            name: "dumabingo",
             path: "src"
         ),
     ]
